@@ -7,14 +7,14 @@ import Logo from '../assets/images/Logo.png';
 const Navbar = () => (
   <Stack direction="row" justifyContent="space-around" sx={{ gap: { sm: '123px', xs: '40px' }, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none' }} px="20px">
     <Link to="/" style={{position:'relative', top:'12px'}}>
-      <img src={Logo} alt="logo" style={{ width: '68px', height: '75px', margin: '0px 20px' }} />
+      <img src={Logo} className='logo' alt="logo" style={{ width: '68px', height: '75px', margin: '0px 20px' }} />
     </Link>
     <Stack
       direction="row"
       gap="40px"
       fontFamily="Alegreya"
-      fontSize="24px"
       alignItems="flex-end"
+      sx={{fontSize:{lg:'22px', xs:'18px'}}}
     >
       <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Home</Link>
       <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>Exercises</a>

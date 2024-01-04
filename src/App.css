@@ -141,4 +141,8 @@ body {
   .exercise-card {
     width: 280px;
   }
+  .logo{
+    width: 40px !important;
+    height: 45px !important;
+  }
 }
