@@ -6,5 +6,7 @@
  
 It showcases over a thousand exercises, categorized by muscle groups. Explore practical examples, seamless pagination, related exercises, and YouTube videos, all powered by RapidAPI. 
 
+Live Demo : https://the-gym-react.web.app/
+
 
 
